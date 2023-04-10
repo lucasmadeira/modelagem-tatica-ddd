@@ -37,7 +37,7 @@ describe("Product repository test", () =>{
             name: "Product 1",
             price: 100
         });
-    })
+    });
 
     it("should update a product", async() =>{
         const productRepository = new ProductRepository();
@@ -66,7 +66,7 @@ describe("Product repository test", () =>{
             name: "Product 2",
             price: 200
         });
-    })
+    });
 
     it("should find a product", async() =>{
         const productRepository = new ProductRepository();
@@ -84,7 +84,7 @@ describe("Product repository test", () =>{
             name: foundProduct.name,
             price: foundProduct.price
         });
-    })
+    });
 
     it("should find all products", async() =>{
         const productRepository = new ProductRepository();
@@ -101,6 +101,6 @@ describe("Product repository test", () =>{
         const products = [product, product2]
 
         expect(products).toEqual(foundProducts);
-    })
+    });
 
 });
