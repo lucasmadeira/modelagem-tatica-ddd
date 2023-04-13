@@ -16,4 +16,4 @@ RUN npm install
 
 
 # Define o comando para iniciar o aplicativo
-CMD ["npm", "test"]
+CMD ["npm", "test", "customer-service.spec.ts"]
