@@ -8,4 +8,6 @@
 
 #### docker run <nome_da_imagem>
 
-### Ao executar a imagem vai rodar os testes de um service de customer, o service tem dois metodos, um para salvar clientes e um para alterar o endereço de clientes, ao invocar estes metodos os respectivos event services são invocados. 
+### Ao executar, a imagem vai rodar os testes de um service de customer, o service tem dois metodos, um para salvar clientes e um para alterar o endereço de clientes, ao invocar estes metodos os respectivos event domain são invocados. 
+
+### Os testes garantem que os event domain foram invocados
